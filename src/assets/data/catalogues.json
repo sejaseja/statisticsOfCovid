@@ -1,0 +1,44 @@
+[
+    {
+      "Case_Reported_Date": "2024-02-14",
+      "Age_Group": "30s",
+      "Client_Gender": "MALE",
+      "Reporting_PHU": "Durham Region Health Department",
+      "Reporting_PHU_City": "Whitby"
+    },
+    {
+      "Case_Reported_Date": "2024-04-29",
+      "Age_Group": "<20",
+      "Client_Gender": "FEMALE",
+      "Reporting_PHU": "Durham Region Health Department",
+      "Reporting_PHU_City": "Toronto"
+    },
+    {
+      "Case_Reported_Date": "2024-01-02",
+      "Age_Group": "60s",
+      "Client_Gender": "MALE",
+      "Reporting_PHU": "Leeds, Grenville and Lanark District Health Unit",
+      "Reporting_PHU_City": "Brockville"
+    },
+    {
+      "Case_Reported_Date": "2024-01-04",
+      "Age_Group": "90+",
+      "Client_Gender": "MALE",
+      "Reporting_PHU": "Ottawa Public Health",
+      "Reporting_PHU_City": "Ottawa"
+    },
+    {
+      "Case_Reported_Date": "2024-01-04",
+      "Age_Group": "80s",
+      "Client_Gender": "FEMALE",
+      "Reporting_PHU": "Ottawa Public Health",
+      "Reporting_PHU_City": "Ottawa"
+    },
+    {
+      "Case_Reported_Date": "",
+      "Age_Group": "80s",
+      "Client_Gender": "FEMALE",
+      "Reporting_PHU": "Ottawa Public Health",
+      "Reporting_PHU_City": "Ottawa"
+    }
+   ]

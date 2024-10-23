@@ -1,0 +1,7 @@
+{
+  "name": "hybridAssignment1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

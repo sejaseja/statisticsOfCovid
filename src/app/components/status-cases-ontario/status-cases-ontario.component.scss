@@ -1,0 +1,84 @@
+#grid5{
+background-color: peachpuff;
+  border: solid 1px #fff;
+  color: black;
+  text-align: center;
+  
+}
+
+ion-card {
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+ion-card:hover {
+  transform: scale(1.02);
+}
+
+ion-card-header {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+ion-card-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+ion-card-subtitle {
+  font-size: 1.2em;
+  color: #6c757d;
+  margin: 10px 0;
+}
+
+ion-grid {
+  padding: 10px;
+}
+
+ion-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+ion-col {
+  flex: 1;
+  padding: 10px;
+}
+
+ion-col h5, ion-col h6, ion-col h3, ion-col p {
+  margin: 5px 0;
+}
+
+ion-col p {
+  font-size: 1em;
+  color: #343a40;
+}
+
+@media (max-width: 768px) {
+  ion-col {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+#grid1, #grid2, #grid3, #grid4, #grid5 {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#grid1 h5, #grid2 h6, #grid3 h6, #grid4 h3, #grid5 h5 {
+  color: #007bff;
+}
+
+#grid1 p, #grid2 p, #grid3 p, #grid4 p, #grid5 p {
+  color: #495057;
+}

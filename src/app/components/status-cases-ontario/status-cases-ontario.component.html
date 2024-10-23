@@ -1,0 +1,22 @@
+<ion-card *ngFor="let Sejal of Ontariocases" >
+  <ion-card-header>
+    <ion-card-title>Status of cases: {{ Sejal.deaths }}</ion-card-title>
+   
+    <ion-card-subtitle >
+      <ion-grid   id="grid5" >
+        <ion-row>
+          <ion-col >
+      <h5>Total Cases:  {{Sejal.totalCases}}  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Resolved:  {{Sejal.resolved}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Deaths:  {{Sejal.deaths}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Hospitalized:  {{Sejal.hospitalized}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      In ICU:  {{Sejal.inICU}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      In ICU on a ventilator:  {{Sejal.inICUOnVentilator}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h5>
+    </ion-col>
+    </ion-row>
+    </ion-grid>
+    </ion-card-subtitle>
+  </ion-card-header>
+
+
+</ion-card>

@@ -1,0 +1,11 @@
+[
+    {
+      "totalCases": "300,000",
+      "resolved": "242,900",
+      "deaths": 9000,
+      "hospitalized": 2000,
+      "inICU": 876,
+      "inICUOnVentilator": 250
+    }
+  ]
+  

@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Ontario Tab
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Ontario Tab</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<app-status-cases-ontario></app-status-cases-ontario>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Details of the catalogue data</ion-card-title>
+    <ion-card-subtitle *ngFor="let detail of items" (click)="selectItem(detail)">
+      {{detail.Case_Reported_Date}}
+    </ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+   Message: {{message}}
+  </ion-card-content>
+</ion-card>
+<ion-button (click)="goToOtherPage()">Go to the page</ion-button>
+
+</ion-content>

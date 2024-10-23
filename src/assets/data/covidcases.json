@@ -1,0 +1,15 @@
+[
+    {
+      "casesToday": 4000,
+      "totalCases": "800,000",
+      "activeCases": "60,000",
+      "totalRecovered": 78383,
+      "deathsToday": 90,
+      "totalDeaths": "20,000",
+      "testedToday": "50,000",
+      "totalTested": "78,999",
+      "percentPositive": "4.30%",
+      "peopleTestedPerMillion": "450,000",
+      "date" :"2/7/2021"
+    }
+   ]

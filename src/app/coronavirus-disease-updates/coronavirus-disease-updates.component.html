@@ -1,0 +1,47 @@
+<ion-card *ngFor="let Sejal of covidStatistics" >
+  <ion-card-header >
+    <ion-card-title >key updates  </ion-card-title>
+    <h6> as of {{Sejal.date}}</h6>
+    <ion-card-subtitle *ngFor="let Sejal of covidStatistics">
+      <ion-grid  >
+        <ion-row>
+          <ion-col id="grid1"> 
+            <h5> Cases today &nbsp;&nbsp; Total cases </h5>
+            <p> {{Sejal.casesToday}} &nbsp;&nbsp; 
+              {{Sejal.totalCases}}
+            </p>
+          </ion-col>
+          <ion-col id="grid2">
+            <h6> Active Cases &nbsp;&nbsp;Total Recovered  </h6>
+            <p> {{Sejal.totalCases}} &nbsp;&nbsp; 
+             {{Sejal.totalRecovered}}
+            </p>
+          </ion-col >
+          <ion-col id="grid3">
+            <h6> Deaths today&nbsp;&nbsp; Total deaths  </h6>
+            <p> {{Sejal.deathsToday}} &nbsp;&nbsp;
+              {{Sejal.totalDeaths}}
+
+            </p>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col id="grid4"> 
+            <h3>Tested today : {{Sejal.testedToday}}  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Total Tested : {{Sejal.totalTested}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Percent positive : {{Sejal.percentPositive}}  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              People tested per million: {{Sejal.peopleTestedPerMillion}}
+              </h3>
+            
+          </ion-col>
+        </ion-row>
+
+      </ion-grid>
+    </ion-card-subtitle>
+  </ion-card-header>
+
+  
+
+  
+</ion-card>
